@@ -1,4 +1,4 @@
-# PHP Mini-Customer-Management-App
+# PHP Stationery Store App
 
 Week 1 PHP Lab
 
