@@ -5,14 +5,11 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Mini Customer Management App</title>
+    <title>Mini Stationery Store App</title>
 </head>
 
 <body>
-    <h1>Mini Customer Management App</h1>
-    <ul>
-        <li><a href="/books.php">View Books</a></li>
-    </ul>
+    <h1>Mini Stationery Store App</h1>
 </body>
 
 </html>
