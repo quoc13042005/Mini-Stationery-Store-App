@@ -22,3 +22,20 @@ function collectSummary($data)
         'value' => $sum_money
     ];
 }
+
+
+/**
+ * Tính toán vốn hóa của từng danh mục sản phẩm (Toán thống kê)
+ */
+function getCategoryCapital($data)
+{
+    $report = [];
+    foreach ($data as $item) {
+        $type = $item['cat'] ?? 'Khác';
+        if (!isset($report[$type])) {
+            $report[$type] = 0;
+        }
+        $report[$type] += ($item['price'] * $item['qty']);
+    }
+    return $report;
+}

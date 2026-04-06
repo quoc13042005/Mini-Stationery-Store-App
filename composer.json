@@ -1,6 +1,6 @@
 {
-  "name": "student/mini-customer-management-app",
-  "description": "Week 1 lab - PHP Mini Customer Management App",
+  "name": "student/stationery-store-app",
+  "description": "Week 1 lab - PHP Mini Stationery Store App",
   "type": "project",
   "require": {}
 }

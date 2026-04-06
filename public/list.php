@@ -28,14 +28,14 @@ require __DIR__ . '/../src/Helpers/functions.php';
         </thead>
         <tbody>
             <?php foreach ($products as $row): ?>
-            <tr>
-                <td><?= $row['id'] ?></td>
-                <td><?= $row['name'] ?></td>
-                <td><?= $row['cat'] ?></td>
-                <td><?= toVND($row['price']) ?></td>
-                <td><?= $row['qty'] ?></td>
-                <td><?= displayLabel($row['qty']) ?></td>
-            </tr>
+                <tr>
+                    <td><?= $row['id'] ?></td>
+                    <td><?= $row['name'] ?></td>
+                    <td><?= $row['cat'] ?></td>
+                    <td><?= toVND($row['price']) ?></td>
+                    <td><?= $row['qty'] ?></td>
+                    <td><?= displayLabel($row['qty']) ?></td>
+                </tr>
             <?php endforeach; ?>
         </tbody>
     </table>
