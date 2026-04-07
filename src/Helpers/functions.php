@@ -23,10 +23,6 @@ function collectSummary($data)
     ];
 }
 
-
-/**
- * Tính toán vốn hóa của từng danh mục sản phẩm (Toán thống kê)
- */
 function getCategoryCapital($data)
 {
     $report = [];
